@@ -1,0 +1,39 @@
+to have the same feel for all the pages
+following index is devided into the three files
+
+
+to combine these into one the statement used is
+****************<%@ include file="./header.jspf" %>
+
+//header.jspf(jsp fragment)
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Spring MVC-DEMO</title>
+<!-- using bootstrap cssto style the web -->
+<link rel="stylesheet" type="text/css"
+	href="./assets/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="alert alert-primary">
+		<div class="container">
+			<h1>Spring MVC-DEMO</h1>
+		</div>
+	</div>
+	<div class="container" style="min-height: 400px">
+	
+	
+//index.jsp (main container can be put here)
+		<h2>Welcome to product manager App</h2>
+		
+		
+//footer.jspf(jsp fragment)		
+	</div>
+	<div class="container text-center" >
+		&copy; 2019-20 All rights reserved by <a href="https://google.com">VMS</a>
+	</div>
+</body>
+</html>
